@@ -1,5 +1,7 @@
-# Notebooks
+# Analysis notebook
 
-Source notebooks are currently archived in the [Full Colab Code Pipeline](https://drive.google.com/drive/folders/1HKonRpPt7rMJU9qEC31Y8Br-f9n-z_Fj).
+- **[drought_study.ipynb](drought_study.ipynb)** — original exported notebook.
+- [Colab code archive](https://drive.google.com/drive/folders/1HKonRpPt7rMJU9qEC31Y8Br-f9n-z_Fj) — contains a second Colab copy.
+- [Execution guide](../docs/RUNNING_THE_ANALYSIS.md)
 
-Before adding the canonical `.ipynb` here, confirm which version is final, remove credentials/private paths, and check that code cells, dependencies, input paths and execution instructions are documented.
+The GitHub notebook consists of one long code cell (rather than step-by-step cells) and was created for Google Colab + Earth Engine + mounted Google Drive. The committed configuration is analysis mode, assuming prior export tasks completed. It is a source record and is **not** a tested standalone notebook with bundled input files.

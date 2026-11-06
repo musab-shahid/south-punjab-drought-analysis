@@ -60,3 +60,32 @@ The analysis is observational; correlations do not establish causal drought prop
 ## Citation
 
 Shahid, M. (2026). *Drought Event Analysis in South Punjab, Pakistan: Multi-Sensor Remote Sensing of Precipitation, Soil Moisture, Vegetation and Thermal Cascades, and Exploratory Implications for Wheat Yield.* Research application report prepared for Dr. Chaolei Zheng, AIRCAS, Chinese Academy of Sciences. Unpublished report.
+
+
+## Figures
+
+The following images are original output figures from the analysis archive, now included locally in this repository.
+
+### Drought event timelines
+
+![Timeline of drought-event onsets](figures/drought_event_timelines.png)
+
+### Environmental time series — Multan
+
+![Monthly SPI, soil-water, thermal, vegetation and ET anomalies in Multan](figures/cascade_timeseries_Multan.png)
+
+### Multi-variable lag correlations
+
+![Lag correlation heatmap](figures/lag_correlations_heatmap.png)
+
+### Canal-exposure geography
+
+![Fraction of mapped cropland within canal buffers](figures/canal_exposure_map.png)
+
+### Terra–Aqua thermal consistency
+
+![Annual Terra minus Aqua LST difference](figures/terra_aqua_annual_gap.png)
+
+## Reproducing the analysis
+
+See [the execution guide](docs/RUNNING_THE_ANALYSIS.md) and the [original notebook](notebooks/drought_study.ipynb). The notebook runs in Google Colab, uses Earth Engine exports and requires the input and export folders available in the linked Drive archive. The code has been published, but a fresh execution in a clean environment has **not yet been independently demonstrated**.

@@ -1,12 +1,13 @@
 # Publication checklist
 
-- [ ] Confirm final canonical notebook (two notebook versions exist in Drive)
-- [ ] Remove tokens, personal paths and unnecessary notebook outputs
-- [ ] Add canonical notebook to `notebooks/`
-- [ ] Add 3–5 final figures and captions to `figures/`
-- [ ] Add final report PDF if desired, after checking document formatting and personal information
-- [ ] Document Python package versions and Earth Engine setup
-- [ ] Provide reproducibility steps and expected inputs/outputs
-- [ ] Review third-party dataset attribution and redistribution rights
-- [ ] Confirm final text accurately represents an application assignment, not employment at AIRCAS
-- [x] Create GitHub repository and upload initial documentation scaffold
+- [x] GitHub repository and research README
+- [x] Original `drought_study.ipynb` source notebook committed
+- [x] Five original analysis figures committed and embedded in README
+- [x] Execution guide documenting the two-stage Colab/Google Earth Engine workflow
+- [x] Project findings and limitations documented without claiming a causal mechanism
+- [x] Research application assignment distinguished from formal employment
+- [ ] Determine whether the second Colab copy contains important updates absent from the exported notebook
+- [ ] Pin Python package/environment versions and test fresh execution
+- [ ] Independently compare notebook output calculations against the report
+- [ ] Review any third-party data before republication and verify attribution
+- [ ] Optionally add an accessible, cleaned report PDF and figure-level captions
