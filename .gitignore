@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+__pycache__/
+.env
+.env.*
+*.pyc
+.DS_Store
+*.zip
+# Avoid committing bulk raw/intermediate exports by default
+/data/raw/
+/data/interim/
