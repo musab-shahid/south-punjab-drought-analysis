@@ -51,7 +51,7 @@ These findings are summarized from the final report; this repository does not cl
 - [Full Colab code pipeline folder](https://drive.google.com/drive/folders/1HKonRpPt7rMJU9qEC31Y8Br-f9n-z_Fj)
 - [Analysis outputs folder](https://drive.google.com/drive/folders/1QYWY2lwOiA_Gc5-DgkmRpD3U6hsRLaO-)
 
-**Repository preparation status:** Documentation scaffold only. The notebook, figures and reproducibility instructions will be added after checking their file paths and dependencies. The linked Drive archive remains the source of record.
+**Publication status (November 2026):** The source notebook (`notebooks/drought_study.ipynb`), five original analysis figures (`figures/`), and execution guide (`docs/RUNNING_THE_ANALYSIS.md`) are now committed to this repository. The linked Drive archive remains the source of record for input files and additional research materials. These files are **not** a demonstrated clean-environment reproduction; verify paths, dependencies and data vintages before rerunning.
 
 ## Limitations
 
@@ -89,3 +89,8 @@ The following images are original output figures from the analysis archive, now 
 ## Reproducing the analysis
 
 See [the execution guide](docs/RUNNING_THE_ANALYSIS.md) and the [original notebook](notebooks/drought_study.ipynb). The notebook runs in Google Colab, uses Earth Engine exports and requires the input and export folders available in the linked Drive archive. The code has been published, but a fresh execution in a clean environment has **not yet been independently demonstrated**.
+
+## Related research portfolio
+
+- [Multan ERA5 Monsoon Analysis (2016–2025)](https://github.com/musab-shahid/multan-era5-monsoon-analysis) — collaborative atmospheric-reanalysis study with four named contributors.
+- [Multan Urban Heat Island Analysis (2013–2023)](https://github.com/musab-shahid/multan-uhi-analysis) — undergraduate Landsat/GEE project.
