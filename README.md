@@ -1,96 +1,82 @@
 # Drought Event Analysis in South Punjab, Pakistan (2001–2025)
 
-**Multi-sensor remote sensing and reanalysis of precipitation, soil moisture, vegetation, thermal responses, and exploratory wheat-yield relationships**
+**CHIRPS · ERA5-Land · MODIS · Google Earth Engine · Python · Drought-event statistics**
 
-**Author:** Musab Shahid  
-**Context:** Independent research application report prepared for Dr. Chaolei Zheng, Aerospace Information Research Institute (AIRCAS), Chinese Academy of Sciences, September 2026. This description does not imply employment or institutional endorsement.
+Independent, multi-sensor study of precipitation and soil-moisture drought events, vegetation/thermal responses and exploratory agricultural implications across **11 districts** of South Punjab.
 
-## Overview
+**Researcher:** Musab Shahid  
+**Research context:** Independent September 2026 application assignment for Dr. Chaolei Zheng, Aerospace Information Research Institute (AIRCAS), Chinese Academy of Sciences. **Not** a claim of institutional appointment, employment or endorsement.
 
-This study examines drought events across 11 districts of South Punjab, Pakistan, using monthly environmental observations and reanalysis products for 2001–2025. It assesses precipitation and soil-moisture drought events, cross-variable temporal associations, mapped canal proximity, and exploratory relationships with district-level wheat yields.
+> **Interpretation:** This is observational research. Temporal correlations are not proof of a causal drought cascade; proximity to mapped canals does not measure actual irrigation delivery; ERA5-Land soil water is model-based reanalysis.
 
-**Study districts:** Multan, Khanewal, Vehari, Lodhran, Bahawalpur, Bahawalnagar, Rahim Yar Khan, Muzaffargarh, Layyah, Dera Ghazi Khan, and Rajanpur.
+## Explore the project
 
-## Data sources
+| Start here | What it contains |
+| --- | --- |
+| [Research figures](figures/) | Event timelines, Multan time series, lag-association heatmap, canal proximity and Terra–Aqua comparison |
+| [Original research notebook](notebooks/drought_study.ipynb) | Published source notebook with Earth Engine exports and downstream analysis |
+| [Notebook execution guide](docs/RUNNING_THE_ANALYSIS.md) | Two-stage GEE-export and Python-analysis workflow, account paths and caveats |
+| [Final research report (Drive)](https://docs.google.com/document/d/1OdzCHDSjB3KY8uIO5WPtR0P9SAUqHI1S/edit) | Full methodological narrative and reported findings |
+| [Research archive](https://drive.google.com/drive/folders/1EFKdIpvvfyv1FfrVnsm2TWeDFcsamxs-) | Original input files and supporting documents |
+| [Analysis outputs (Drive)](https://drive.google.com/drive/folders/1QYWY2lwOiA_Gc5-DgkmRpD3U6hsRLaO-) | Outputs needed to check the published report |
+| [Publication limitations and checklist](docs/PUBLISHING_CHECKLIST.md) | Outstanding independent replication and source-data checks |
 
-| Variable | Source | Role |
-|---|---|---|
-| Precipitation | CHIRPS v3 | SPI-1 and SPI-3 |
-| Soil water (0–100 cm) | ERA5-Land reanalysis | Soil-moisture anomalies and drought events |
-| Daytime land-surface temperature | MODIS Terra MOD11A2; Aqua MYD11A2 | Thermal anomalies; cross-platform consistency |
-| Vegetation | MODIS MOD13Q1 NDVI | Vegetation response |
-| Evapotranspiration | MODIS MOD16A2GF | ET response |
-| Cropland and canals | ESA WorldCover 2021; OpenStreetMap canals | Static canal-proximity proxy |
-| Wheat yields | Official agricultural series, with limited gap filling described in report | Exploratory yield regressions |
+## Research questions and study area
 
-**Important:** ERA5-Land soil water is modeled/reanalysis data, not a direct satellite soil-moisture observation. Canal proximity is not equivalent to actual irrigation or water delivery.
+Across **Multan, Khanewal, Vehari, Lodhran, Bahawalpur, Bahawalnagar, Rahim Yar Khan, Muzaffargarh, Layyah, Dera Ghazi Khan and Rajanpur**, how do precipitation and modeled soil-moisture drought events differ? How do vegetation, evapotranspiration and surface-temperature anomalies co-vary, and what exploratory relationships appear with wheat yield and mapped canal proximity?
 
-## Analytical workflow
+## Data sources and approach
 
-1. Assemble monthly district-level data in Google Earth Engine and Python/Colab.
-2. Calculate SPI-1, SPI-3 and calendar-month standardized soil-water anomalies.
-3. Detect drought events using threshold-based run theory (including a one-month gap-pooling rule and minimum two-month duration).
-4. Estimate Spearman lag associations (0–3 months), with false-discovery-rate correction.
-5. Compare Terra and Aqua MODIS LST records as a consistency check.
-6. Calculate cropland proximity to mapped canals using 5 km buffers and 2/10 km sensitivity checks.
-7. Explore wheat-yield residual relationships using district and harvest-year fixed effects; report limitations and sensitivity.
+| Environmental variable | Source | Analysis |
+| --- | --- | --- |
+| Precipitation | **CHIRPS v3** | SPI-1 / SPI-3 drought monitoring |
+| Soil moisture, 0–100 cm | **ERA5-Land** | Reanalysis soil-water anomalies and events |
+| Land-surface temperature | **MODIS Terra/Aqua** | Thermal anomalies, sensor consistency |
+| Vegetation / evapotranspiration | **MODIS NDVI / MOD16A2GF ET** | Vegetation and moisture-response associations |
+| Cropland / canal locations | **ESA WorldCover 2021 / OpenStreetMap** | Static mapped-canal proximity; sensitivity buffers |
+| District wheat yields | Official agricultural series, with documented gap filling | Exploratory fixed-effect regressions |
 
-## Selected findings
+**Workflow:** Monthly district extraction in Earth Engine → calendar-month anomaly standardization → threshold-and-run drought events (including one-month gap pooling, minimum two-month duration) → Spearman associations at 0–3 month lags with FDR correction → sensor, canal-proximity and exploratory wheat-yield comparisons.
 
-- At the primary −1.0 threshold, **91 SPI-1 events** and **48 soil-moisture events** were identified across the study districts.
-- All four assessed environmental relationships showed their strongest associations at **zero-month lag**; these are associations, not evidence of a causal cascade.
-- The report found **no statistically significant wheat-yield or canal-interaction effect** in the three prespecified regression specifications. The sensitivity to buffer distance limits interpretation.
-- Terra and Aqua LST were strongly correlated in overlapping district-month observations, but this comparison is **not independent validation**.
+## Findings from the research report
 
-These findings are summarized from the final report; this repository does not claim an independent replication of the calculations.
+- **91 SPI-1 drought events** and **48 soil-moisture drought events** at the primary −1.0 threshold, across the analyzed districts.
+- The four reported environmental associations had their strongest relationships at **zero-month lag**. This does **not** demonstrate causal propagation.
+- No statistically significant wheat-yield or canal-interaction effects in the **three prespecified** regression specifications.
+- Terra and Aqua daytime LST series were strongly correlated where both were observed, but this is **not independent ground validation**.
 
-## Project materials
+These figures and statistical statements are **reported findings from the original study**, not independently replicated results from a fresh environment.
 
-- [Full research archive (Google Drive)](https://drive.google.com/drive/folders/1EFKdIpvvfyv1FfrVnsm2TWeDFcsamxs-?usp=sharing)
-- [Final research report (DOCX)](https://docs.google.com/document/d/1OdzCHDSjB3KY8uIO5WPtR0P9SAUqHI1S/edit)
-- [Full Colab code pipeline folder](https://drive.google.com/drive/folders/1HKonRpPt7rMJU9qEC31Y8Br-f9n-z_Fj)
-- [Analysis outputs folder](https://drive.google.com/drive/folders/1QYWY2lwOiA_Gc5-DgkmRpD3U6hsRLaO-)
+## Results in figures
 
-**Publication status (November 2026):** The source notebook (`notebooks/drought_study.ipynb`), five original analysis figures (`figures/`), and execution guide (`docs/RUNNING_THE_ANALYSIS.md`) are now committed to this repository. The linked Drive archive remains the source of record for input files and additional research materials. These files are **not** a demonstrated clean-environment reproduction; verify paths, dependencies and data vintages before rerunning.
+| Drought-event timing | Environmental associations |
+| --- | --- |
+| ![Drought-event timelines](figures/drought_event_timelines.png) | ![Multi-variable lag correlations](figures/lag_correlations_heatmap.png) |
 
-## Limitations
+| Multan multi-sensor time series | Canal proximity |
+| --- | --- |
+| ![Multan SPI, soil water and biophysical anomalies](figures/cascade_timeseries_Multan.png) | ![Cropland within canal buffers](figures/canal_exposure_map.png) |
 
-The analysis is observational; correlations do not establish causal drought propagation. The canal proxy uses a static land-cover/canal snapshot rather than measured irrigation delivery. The wheat-yield panel contains limited gap-filled values, and inference with 11 district clusters is exploratory. Some source records do not cover the entire study period (for example, Aqua LST starts in July 2002).
+[Terra–Aqua temperature consistency figure](figures/terra_aqua_annual_gap.png) · [All figures](figures/)
+
+## Reproducibility and scientific limitations
+
+The [notebook](notebooks/drought_study.ipynb) and [run guide](docs/RUNNING_THE_ANALYSIS.md) document the actual pipeline, its input folders and export/analysis flags. **A clean-environment rerun and independent reconciliation of every published result have not been demonstrated.**
+
+- Source coverage differs across sensors (Aqua begins in mid-2002, for example); this is not a uniform direct-satellite 2001–2025 record.
+- A mapped canal buffer is an **exposure proxy**, not actual water access or irrigation delivery.
+- Some official wheat-yield observations required limited gap filling; only **11 district clusters** are available for regression inference.
+- The report is observational and does not support causal crop-loss, irrigation-effect or event-propagation claims.
+- The research assignment context is **not** affiliation or endorsement by AIRCAS/CAS.
+
+## Research portfolio
+
+| Project | Focus | Research context |
+| --- | --- | --- |
+| [Multan Urban Heat Analysis](https://github.com/musab-shahid/multan-uhi-analysis) | Landsat LST and spectral indices | Undergraduate final-year research |
+| [Multan ERA5 Monsoon Analysis](https://github.com/musab-shahid/multan-era5-monsoon-analysis) | Time-series climate reanalysis and rainfall statistics | **Collaborative**, four contributors |
+| **This project — South Punjab drought** | Multi-sensor event analysis and exploratory agricultural relationships | **Independent** research-application report |
 
 ## Citation
 
-Shahid, M. (2026). *Drought Event Analysis in South Punjab, Pakistan: Multi-Sensor Remote Sensing of Precipitation, Soil Moisture, Vegetation and Thermal Cascades, and Exploratory Implications for Wheat Yield.* Research application report prepared for Dr. Chaolei Zheng, AIRCAS, Chinese Academy of Sciences. Unpublished report.
-
-
-## Figures
-
-The following images are original output figures from the analysis archive, now included locally in this repository.
-
-### Drought event timelines
-
-![Timeline of drought-event onsets](figures/drought_event_timelines.png)
-
-### Environmental time series — Multan
-
-![Monthly SPI, soil-water, thermal, vegetation and ET anomalies in Multan](figures/cascade_timeseries_Multan.png)
-
-### Multi-variable lag correlations
-
-![Lag correlation heatmap](figures/lag_correlations_heatmap.png)
-
-### Canal-exposure geography
-
-![Fraction of mapped cropland within canal buffers](figures/canal_exposure_map.png)
-
-### Terra–Aqua thermal consistency
-
-![Annual Terra minus Aqua LST difference](figures/terra_aqua_annual_gap.png)
-
-## Reproducing the analysis
-
-See [the execution guide](docs/RUNNING_THE_ANALYSIS.md) and the [original notebook](notebooks/drought_study.ipynb). The notebook runs in Google Colab, uses Earth Engine exports and requires the input and export folders available in the linked Drive archive. The code has been published, but a fresh execution in a clean environment has **not yet been independently demonstrated**.
-
-## Related research portfolio
-
-- [Multan ERA5 Monsoon Analysis (2016–2025)](https://github.com/musab-shahid/multan-era5-monsoon-analysis) — collaborative atmospheric-reanalysis study with four named contributors.
-- [Multan Urban Heat Island Analysis (2013–2023)](https://github.com/musab-shahid/multan-uhi-analysis) — undergraduate Landsat/GEE project.
+Shahid, M. (2026). *Drought Event Analysis in South Punjab, Pakistan: Multi-Sensor Remote Sensing of Precipitation, Soil Moisture, Vegetation and Thermal Cascades, and Exploratory Implications for Wheat Yield.* Unpublished research application report prepared for Dr. Chaolei Zheng, AIRCAS, Chinese Academy of Sciences.
