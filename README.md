@@ -1,4 +1,6 @@
 # Drought Event Analysis in South Punjab, Pakistan (2001–2025)
+**Reader guide:** [Project structure and report status](docs/PROJECT_GUIDE.md) · [Public portfolio](https://musab-shahid-earth-observation.brinycourt4.chatgpt.site/)
+
 
 **CHIRPS · ERA5-Land · MODIS · Google Earth Engine · Python · Drought-event statistics**
 
@@ -70,6 +72,8 @@ The [notebook](notebooks/drought_study.ipynb) and [run guide](docs/RUNNING_THE_A
 - The research assignment context is **not** affiliation or endorsement by AIRCAS/CAS.
 
 ## Research portfolio
+
+[Fourth project: Multan Environmental Heat Screening](https://github.com/musab-shahid/multan-environmental-heat-screening) adds source-ID mapping and temporal model evaluation.
 
 | Project | Focus | Research context |
 | --- | --- | --- |
