@@ -1,4 +1,4 @@
-# South Punjab Drought: reader and archive guide
+# Drought Event Analysis in South Punjab, Pakistan: reader and archive guide
 
 Reviewed 7 November 2026.
 

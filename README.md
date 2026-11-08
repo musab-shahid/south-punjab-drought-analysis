@@ -1,4 +1,6 @@
-# Drought Event Analysis in South Punjab, Pakistan (2001–2025)
+# Drought Event Analysis in South Punjab, Pakistan
+
+*Multi-Sensor Remote Sensing of Precipitation, Soil Moisture, Vegetation and Thermal Cascades, and Exploratory Implications for Wheat Yield*
 **Reader guide:** [Project structure and report status](docs/PROJECT_GUIDE.md) · [Public portfolio](https://musab-shahid-earth-observation.brinycourt4.chatgpt.site/)
 
 
@@ -73,13 +75,13 @@ The [notebook](notebooks/drought_study.ipynb) and [run guide](docs/RUNNING_THE_A
 
 ## Research portfolio
 
-[Fourth project: Multan Environmental Heat Screening](https://github.com/musab-shahid/multan-environmental-heat-screening) adds source-ID mapping and temporal model evaluation.
+[Fourth project: Spatiotemporal Urban Heat Vulnerability Assessment — Multan, Pakistan (2003–2023)](https://github.com/musab-shahid/multan-environmental-heat-screening) adds source-ID mapping and temporal model evaluation.
 
 | Project | Focus | Research context |
 | --- | --- | --- |
-| [Multan Urban Heat Analysis](https://github.com/musab-shahid/multan-uhi-analysis) | Landsat LST and spectral indices | Undergraduate final-year research |
-| [Multan ERA5 Monsoon Analysis](https://github.com/musab-shahid/multan-era5-monsoon-analysis) | Time-series climate reanalysis and rainfall statistics | **Collaborative**, four contributors |
-| **This project — South Punjab drought** | Multi-sensor event analysis and exploratory agricultural relationships | **Independent** research-application report |
+| [Spatiotemporal Analysis of Urban Heat Island Effect in Multan, Pakistan (2013–2023)](https://github.com/musab-shahid/multan-uhi-analysis) | Landsat LST and spectral indices | Undergraduate final-year research |
+| [Monsoon Rainfall & Flood-Risk Analysis for Multan](https://github.com/musab-shahid/multan-era5-monsoon-analysis) | Time-series climate reanalysis and rainfall statistics | **Collaborative**, four contributors |
+| **This project — Drought Event Analysis in South Punjab, Pakistan** | Multi-sensor event analysis and exploratory agricultural relationships | **Independent** research-application report |
 
 ## Citation
 
