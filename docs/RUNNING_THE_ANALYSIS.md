@@ -1,43 +1,23 @@
 # Running the analysis
 
-This guide describes the actual configuration and workflow of `notebooks/drought_study.ipynb`. It is not a claim of clean-environment reproduction.
+## Existing exports: the tested route
 
-## Environment and services
+Use Python 3.12 and the versions in `requirements.txt`. Get `Drought_Reproduction_Inputs.zip` from the [current Drive release](https://drive.google.com/drive/folders/1Nnk_-ldtT32jwGUrnzeHbKRUny1FVxGn). After extraction, pass the folder containing `gee_exports/` and `source_data/`:
 
-- Google Colab Python environment
-- Google Earth Engine account and an authorized Cloud project (set in `GEE_PROJECT`)
-- Google Drive mounted in Colab (the notebook sets `MOUNT_DRIVE = True`)
-- Python packages required by the notebook, including `earthengine-api`, `numpy`, `pandas`, and additional analysis/plotting packages used in subsequent sections. Package versions are not pinned.
-- Inputs and exported CSVs from the [research archive](https://drive.google.com/drive/folders/1EFKdIpvvfyv1FfrVnsm2TWeDFcsamxs-?usp=sharing)
-
-## Folder layout
-
-The notebook expects `PROJECT_DIR = "/content/drive/MyDrive/AiRCAS_drought/"` and uses:
-
-```text
-AiRCAS_drought/
-├── gee_exports/       # Monthly district CSVs and canal exposure exports
-├── source_data/        # Wheat-yield panel and required source files
-├── analysis_outputs/   # Analysis tables, models, and plots
-│   └── figures/
-└── osm_canals_geojson/ # Canal lines, if needed for fresh exports
+```bash
+python -m pip install -r requirements.txt
+python scripts/run_analysis.py --inputs /path/to/reproduction_inputs --output /path/to/new_results
+python -m unittest discover -s tests -v
 ```
 
-The `CANAL_GEOJSON_PATH` variable in the original notebook points to `osm canals geojson/south_punjab_osm_canals.geojson`, while the archived Drive folder is named `osm_canals_geojson`. The notebook also searches alternative locations. For a fresh run, **verify or change this path** to match your mounted Drive folder.
+The input bundle contains six environmental monthly CSVs, three canal-buffer CSVs, and the original wheat tables including source tags. Keep a copy of the bundle unchanged. The inherited pipeline copies the official wheat file to its working wheat filename inside `source_data/`; use an extracted working copy rather than the original archive.
 
-## Two run modes
+The runner adapts paths and flags, disables Drive mounting and exports, and removes the unused Earth Engine import. Scientific functions run unchanged from `scripts/analysis.py`. The current scientific change relative to the original notebook is enforcement of the five-month Rabi minimum before the yield merge. Plot generation is disabled in this offline entrypoint because the inherited canal-map routine requests Earth Engine. Existing environmental figures remain valid because their tables did not change.
 
-1. **Export mode:** Set `RUN_GEE_EXPORTS = True` and `RUN_ANALYSIS = False`. Set `GEE_PROJECT`, authenticate Earth Engine, mount Drive, and start the export tasks. Wait for all tasks to complete in Earth Engine before proceeding.
-2. **Analysis mode:** Set `RUN_GEE_EXPORTS = False`, `RUN_ANALYSIS = True`, and `RUN_PLOTS = True`. Place the finished exports and required wheat/canal inputs in the expected folders. The committed notebook is configured in this mode.
+Outputs include the 3,300-row environmental panel, event catalogs, lag results, sensor checks, a 264-row eligible wheat panel, three primary-model summaries and nine buffer-model summaries. Original and current regression files must not be mixed.
 
-The original code uses the official wheat-panel filename `south_punjab_wheat_official_2000_2024.csv`; check it exists in `source_data/` before expecting the published regression outputs.
+## Fresh Earth Engine extraction: optional
 
-## Important caveats
+The original `notebooks/drought_study.ipynb` documents export settings. For an updated run, use the corrected source in `scripts/analysis.py`, configure your Earth Engine project and Drive paths, and provide the canal GeoJSON. First run exports with `RUN_GEE_EXPORTS=True`, `RUN_ANALYSIS=False`; wait for completed exports. Then set exports false and analysis true. The tested reproduction above does not need this step.
 
-- The notebook uses a **single code cell** with multiple stages; users should inspect flags and paths before running it.
-- Earth Engine exports are asynchronous and dependent on account permissions and source availability.
-- Reproducing tables and figures requires the correct inputs, data vintages, and software environment.
-- Do not treat the soil-water variable as direct satellite measurements: it is **ERA5-Land reanalysis**.
-- The report summarizes results; published GitHub notebook and figures have not been independently rerun in a clean environment.
-
-For canonical scientific definitions and caveats, consult the [final research report](https://docs.google.com/document/d/1OdzCHDSjB3KY8uIO5WPtR0P9SAUqHI1S/edit).
+The original executed Colab notebook remains in the Drive archive. Do not interpret old stored cell outputs as results from the corrected source.

@@ -1,0 +1,177 @@
+district,pair,x,y,lag_months,spearman_r,p_value,n,p_fdr,significant_fdr
+Bahawalnagar,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,0,0.2935896535603942,2.2372860384905494e-07,300,6.351005528618333e-07,True
+Bahawalnagar,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,1,0.2527704241484066,9.663898267266932e-06,299,2.180571916716641e-05,True
+Bahawalnagar,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,2,0.14127376153017362,0.01465609873600771,298,0.02114322440604391,True
+Bahawalnagar,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,3,0.06503873998297598,0.2638600330625666,297,0.30352526679092634,False
+Bahawalnagar,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,0,-0.3187435415949066,1.6452220891118095e-08,300,5.0799839944504996e-08,True
+Bahawalnagar,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,1,-0.16999887769073646,0.0031907709788972934,299,0.0051997749285733665,True
+Bahawalnagar,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,2,-0.10127288008817042,0.08091813264747691,298,0.1047175834261466,False
+Bahawalnagar,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,3,-0.048526256579947864,0.4047032913352798,297,0.4479734545598066,False
+Bahawalnagar,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,0,0.5554777275303059,1.0976301150750838e-25,300,1.4860223096401134e-24,True
+Bahawalnagar,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,1,0.4800655428609908,1.2141187531354423e-18,299,9.712950025083538e-18,True
+Bahawalnagar,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,2,0.38831560424790657,3.6576163026725065e-12,298,1.7881679701954474e-11,True
+Bahawalnagar,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,3,0.35857211696137875,1.9350143041993394e-10,297,7.568055945312973e-10,True
+Bahawalnagar,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,0,0.4977935310392338,3.442967088177526e-20,300,3.189274776417077e-19,True
+Bahawalnagar,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,1,0.3624250858566586,1.0355288980417897e-10,299,4.339359191794166e-10,True
+Bahawalnagar,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,2,0.24616686040672034,1.7237746332823228e-05,298,3.74548562293443e-05,True
+Bahawalnagar,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,3,0.22390236484196216,9.945550579431729e-05,297,0.00020353684906744004,True
+Bahawalpur,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,0,0.12450539722723632,0.0310923003656498,300,0.04209419126426434,True
+Bahawalpur,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,1,0.11999529976827755,0.03810531479421399,299,0.05080708639228532,False
+Bahawalpur,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,2,0.06425731402794954,0.26884149480149827,298,0.30724742263028376,False
+Bahawalpur,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,3,0.0010871916479313025,0.9851144781568735,297,0.9851426985805384,False
+Bahawalpur,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,0,-0.1798184424271381,0.0017655637147186033,300,0.0030464628802987664,True
+Bahawalpur,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,1,-0.08055307400507283,0.16473632890634762,299,0.20275240480781245,False
+Bahawalpur,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,2,-0.029139909793542706,0.6163534376355997,298,0.6655104602691138,False
+Bahawalpur,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,3,0.0010851302797611525,0.9851426985805384,297,0.9851426985805384,False
+Bahawalpur,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,0,0.6968299647773863,6.41483614169456e-45,300,5.645055804691213e-43,True
+Bahawalpur,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,1,0.6530820856995353,9.742873106284093e-38,299,4.286864166765001e-36,True
+Bahawalpur,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,2,0.5761675020501982,9.384122525492232e-28,298,1.771962407967898e-26,True
+Bahawalpur,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,3,0.5139211817064167,2.024185682814349e-21,297,2.0956275304430908e-20,True
+Bahawalpur,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,0,0.39618395759952885,1.0241420791205325e-12,300,5.30144135074158e-12,True
+Bahawalpur,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,1,0.3054898879935355,7.058496458343413e-08,299,2.105585384183798e-07,True
+Bahawalpur,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,2,0.22297337587678992,0.00010363387366554962,298,0.0002096501352314567,True
+Bahawalpur,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,3,0.18988497344202046,0.0010069102212487183,297,0.001790062615553277,True
+Dera Ghazi Khan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,0,0.2598725874024487,5.09263642253614e-06,300,1.211221635630217e-05,True
+Dera Ghazi Khan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,1,0.26614254794652337,3.0532587446651008e-06,299,7.482681195989581e-06,True
+Dera Ghazi Khan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,2,0.21852590653134818,0.00014321663848909945,298,0.00028321492555147753,True
+Dera Ghazi Khan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,3,0.15428320807458445,0.007730411233472649,297,0.011728899802510226,True
+Dera Ghazi Khan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,0,-0.355549283880932,2.2831180951654755e-10,300,8.735408364111385e-10,True
+Dera Ghazi Khan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,1,-0.20782025094835133,0.00029680088576614723,299,0.0005557122967536374,True
+Dera Ghazi Khan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,2,-0.13492583349601148,0.019803161381575406,298,0.02744375120596277,True
+Dera Ghazi Khan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,3,-0.07743313783582241,0.18324490244707037,297,0.22089796459372865,False
+Dera Ghazi Khan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,0,0.7478145312725697,5.992875026135539e-55,300,1.0547460045998548e-52,True
+Dera Ghazi Khan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,1,0.6899652084128303,1.3774692878827422e-43,299,8.081153155578755e-42,True
+Dera Ghazi Khan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,2,0.6221236857361747,2.5701025844607867e-33,298,7.538967581084975e-32,True
+Dera Ghazi Khan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,3,0.5719126692281056,3.393043165108288e-27,297,4.9764633088254897e-26,True
+Dera Ghazi Khan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,0,0.59722352470583,2.1968324093053818e-30,300,4.83303130047184e-29,True
+Dera Ghazi Khan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,1,0.4503732800610536,2.4317177057119637e-16,299,1.58511968964928e-15,True
+Dera Ghazi Khan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,2,0.349869143274454,5.241028156305605e-10,298,1.88249174593834e-09,True
+Dera Ghazi Khan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,3,0.29987293577897606,1.3803118739328731e-07,297,3.9825391772489453e-07,True
+Khanewal,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,0,0.36966966199409007,3.796346487192065e-11,300,1.6703924543645086e-10,True
+Khanewal,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,1,0.2857269199042137,5.03084407662233e-07,299,1.3215351604261643e-06,True
+Khanewal,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,2,0.1307685165720174,0.023968726803983837,298,0.03295699935547777,True
+Khanewal,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,3,0.06940829437441917,0.2330435121544932,297,0.27527287341738793,False
+Khanewal,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,0,-0.25573617484638717,7.263949494981393e-06,300,1.7046068148223002e-05,True
+Khanewal,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,1,-0.12074700904581268,0.03690563175787827,299,0.04958313885027921,True
+Khanewal,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,2,-0.05779167173973126,0.32008786465550426,298,0.35882461260744425,False
+Khanewal,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,3,-0.01881090975050707,0.7468142453737794,297,0.7734806739669774,False
+Khanewal,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,0,0.30465316281292015,7.316332400096121e-08,300,2.1461241706948624e-07,True
+Khanewal,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,1,0.15012502525195842,0.009328334228531267,299,0.013973270244486868,True
+Khanewal,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,2,0.04957047297286573,0.3938551041863314,298,0.43872467301768564,False
+Khanewal,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,3,0.06784148394886651,0.2437875289682036,297,0.284149702638436,False
+Khanewal,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,0,0.45239480438671537,1.5338372202717202e-16,300,1.079821403071291e-15,True
+Khanewal,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,1,0.19578864671949003,0.0006632709772694626,299,0.0012034607422621176,True
+Khanewal,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,2,0.0655199613472155,0.25952763551732044,298,0.3005056832305816,False
+Khanewal,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,3,0.018788007043040605,0.7471120146271941,297,0.7734806739669774,False
+Layyah,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,0,0.2929307263657957,2.38777958122583e-07,300,6.6706223221547e-07,True
+Layyah,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,1,0.2379730254406486,3.216309615529155e-05,299,6.903298686989406e-05,True
+Layyah,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,2,0.17876348525967692,0.0019485875898717672,298,0.0033296253962857383,True
+Layyah,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,3,0.13657763128781664,0.018529897196633886,297,0.025933465707713505,True
+Layyah,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,0,-0.2676251958355093,2.574972135775177e-06,300,6.474215655663303e-06,True
+Layyah,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,1,-0.1288348185225921,0.02589900309542943,299,0.03533507399066341,True
+Layyah,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,2,-0.07916406778385184,0.17288874105353455,298,0.21130846128765332,False
+Layyah,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,3,-0.02070084117063983,0.722375704652519,297,0.7567745477312103,False
+Layyah,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,0,0.4814737941532683,8.155686694398263e-19,300,7.177004291070472e-18,True
+Layyah,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,1,0.41630490898071876,5.814565606687042e-14,299,3.335477215188077e-13,True
+Layyah,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,2,0.32863686584141794,6.190826390879485e-09,298,1.981064445081435e-08,True
+Layyah,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,3,0.2896615346279776,3.7701631013250627e-07,297,1.0208441628203247e-06,True
+Layyah,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,0,0.48056267291858795,9.684015785181917e-19,300,8.116127515200082e-18,True
+Layyah,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,1,0.34276088078831,1.1471831389807558e-09,299,4.03808464921226e-09,True
+Layyah,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,2,0.23525756090681682,4.0990842219392574e-05,298,8.692034012786858e-05,True
+Layyah,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,3,0.18866425913405782,0.0010867133278740669,297,0.0019126154570583576,True
+Lodhran,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,0,0.3599005096214769,1.3258180230666182e-10,300,5.303272092266473e-10,True
+Lodhran,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,1,0.31563366110747637,2.4302819945816002e-08,299,7.374648811144166e-08,True
+Lodhran,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,2,0.17199196967666394,0.00289387084406226,298,0.0047600118556538114,True
+Lodhran,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,3,0.11151716501911431,0.054890786760605846,297,0.07263743210426037,False
+Lodhran,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,0,-0.17171657462860698,0.0028450927146850395,300,0.0047239275262694995,True
+Lodhran,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,1,-0.07272070211667528,0.20989575741492814,299,0.2513037639797779,False
+Lodhran,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,2,-0.06334789614626206,0.2756895885761986,298,0.3130410812220061,False
+Lodhran,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,3,-0.021859718168443003,0.7075267649181157,297,0.7456569498538226,False
+Lodhran,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,0,0.2029889220991344,0.0004030200096885073,300,0.0007388700177622634,True
+Lodhran,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,1,0.09549325492132613,0.09933531682007427,299,0.1276132537250589,False
+Lodhran,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,2,0.02866740625713488,0.6220849153360661,298,0.6676033237752905,False
+Lodhran,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,3,0.0628775511325847,0.2800924459116568,297,0.31600173384904867,False
+Lodhran,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,0,0.3720739119323548,2.7724940994763825e-11,300,1.2511768243790853e-10,True
+Lodhran,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,1,0.13607910035689436,0.01856600385893126,299,0.025933465707713505,True
+Lodhran,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,2,-0.02260738969230361,0.6975176471906841,298,0.7395367825636169,False
+Lodhran,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,3,-0.06867147806745122,0.23805369394518808,297,0.2793163342290207,False
+Multan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,0,0.3552830870373442,2.359679553670111e-10,300,8.83624683927531e-10,True
+Multan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,1,0.28796662092092734,4.0568437641720836e-07,299,1.0818250037792224e-06,True
+Multan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,2,0.1502917211352513,0.009368442550280968,298,0.013973270244486868,True
+Multan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,3,0.09378959027970653,0.10672668331262003,297,0.1361151903117473,False
+Multan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,0,-0.28019955777286415,8.13553651237632e-07,300,2.075151342287293e-06,True
+Multan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,1,-0.17536306704675542,0.0023405645333441087,299,0.003923231979700601,True
+Multan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,2,-0.10813778511473286,0.062269374984830345,298,0.08178664177112045,False
+Multan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,3,-0.047217595875313996,0.417506857029613,297,0.4592575427325743,False
+Multan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,0,0.33693929932554806,2.1298298271515805e-09,300,7.208654799589964e-09,True
+Multan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,1,0.2252914637157415,8.49540240410916e-05,299,0.0001779989075146681,True
+Multan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,2,0.14733517301360896,0.01087709013149115,298,0.01608712490035666,True
+Multan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,3,0.1471947847786774,0.011089650537338907,297,0.016264820788097066,True
+Multan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,0,0.4506903410037889,2.05345292718895e-16,300,1.3900296737894431e-15,True
+Multan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,1,0.22374671724540413,9.527365446448557e-05,299,0.0001972725080676407,True
+Multan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,2,0.08803099115325551,0.12946657568379122,298,0.161603668938633,False
+Multan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,3,0.04360492279955368,0.4540616207209759,297,0.4933015138697022,False
+Muzaffargarh,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,0,0.33222875386373146,3.6628990514041572e-09,300,1.1938337649020957e-08,True
+Muzaffargarh,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,1,0.266113586779816,3.0610968529048288e-06,299,7.482681195989581e-06,True
+Muzaffargarh,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,2,0.18310331298536311,0.0015012137344652904,298,0.0026159764085731795,True
+Muzaffargarh,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,3,0.13982164380129897,0.015894110345017302,297,0.02274279203839874,True
+Muzaffargarh,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,0,-0.41560106223402477,5.874988276751727e-14,300,3.335477215188077e-13,True
+Muzaffargarh,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,1,-0.28268366591097843,6.719356209008847e-07,299,1.739127489390525e-06,True
+Muzaffargarh,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,2,-0.21171128582858958,0.00023217808972996563,298,0.00044416678035297773,True
+Muzaffargarh,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,3,-0.1374826626504479,0.017758779169457544,297,0.02520600914374619,True
+Muzaffargarh,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,0,0.5146194957721753,1.09785721913049e-21,300,1.2076429410435391e-20,True
+Muzaffargarh,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,1,0.45488002513972753,1.1241175629813816e-16,299,8.243528795196799e-16,True
+Muzaffargarh,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,2,0.3901974561443484,2.8196866658992815e-12,298,1.417899580566496e-11,True
+Muzaffargarh,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,3,0.3515047994913767,4.5999479625416865e-10,297,1.686647586265285e-09,True
+Muzaffargarh,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,0,0.5346037178190869,1.4188748590743106e-23,300,1.6648131679805245e-22,True
+Muzaffargarh,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,1,0.36627999371506814,6.336920876797471e-11,299,2.720239205649646e-10,True
+Muzaffargarh,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,2,0.2527152515480499,1.0049949089148802e-05,298,2.2389759996078343e-05,True
+Muzaffargarh,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,3,0.19509854576968674,0.0007231921439865096,297,0.0012987940545063847,True
+Rahim Yar Khan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,0,0.212247715224361,0.00021292150761896873,300,0.00041180423451580764,True
+Rahim Yar Khan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,1,0.17551751649991318,0.0023194740811610065,299,0.003923231979700601,True
+Rahim Yar Khan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,2,0.08358756286207994,0.15003699796240302,298,0.18596134958720376,False
+Rahim Yar Khan,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,3,0.023535053914697412,0.6862558366209487,297,0.732006225729012,False
+Rahim Yar Khan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,0,-0.3855109501216679,4.560272539845159e-12,300,2.1692107216560757e-11,True
+Rahim Yar Khan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,1,-0.2639985634441427,3.688429434533624e-06,299,8.892651787368737e-06,True
+Rahim Yar Khan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,2,-0.20858378401418962,0.0002883589330735579,298,0.0005457115292574859,True
+Rahim Yar Khan,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,3,-0.15791874852277538,0.006387838054463493,297,0.009776169544222389,True
+Rahim Yar Khan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,0,0.5740814897943309,1.0697994835904191e-27,300,1.771962407967898e-26,True
+Rahim Yar Khan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,1,0.510730623330565,2.8849511028823683e-21,299,2.820841078373871e-20,True
+Rahim Yar Khan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,2,0.4155747957907281,7.153127756639693e-14,298,3.934220266151831e-13,True
+Rahim Yar Khan,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,3,0.3805179493098957,1.144141116448812e-11,297,5.299179907762919e-11,True
+Rahim Yar Khan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,0,0.45841887132079245,5.39818250643252e-17,300,4.130783135357059e-16,True
+Rahim Yar Khan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,1,0.3256299521896254,8.16751774392444e-09,299,2.566934148090538e-08,True
+Rahim Yar Khan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,2,0.21953616205148155,0.00013314584514763245,298,0.0002662916902952649,True
+Rahim Yar Khan,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,3,0.16660070686916326,0.00398703649895674,297,0.006321787601949425,True
+Rajanpur,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,0,0.16381115345726063,0.0044454915074068424,300,0.006923951374368179,True
+Rajanpur,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,1,0.16892729680590785,0.0033909787937774975,299,0.005475341905548987,True
+Rajanpur,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,2,0.14186737297329652,0.01424094092615256,298,0.020714095892585542,True
+Rajanpur,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,3,0.10444825545496687,0.07227893658138695,297,0.09423031732091929,False
+Rajanpur,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,0,-0.3611693463260703,1.1297347958423552e-10,300,4.6240307922849887e-10,True
+Rajanpur,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,1,-0.24710152409597988,1.5455303523851767e-05,299,3.400166775247389e-05,True
+Rajanpur,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,2,-0.20615370104719388,0.00034049918112971834,298,0.0006308195355666361,True
+Rajanpur,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,3,-0.16054202463598438,0.005552958466599828,297,0.008572988509838331,True
+Rajanpur,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,0,0.6412697918865764,3.781107754934441e-36,300,1.3309499297369232e-34,True
+Rajanpur,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,1,0.6157105339947476,1.3716542262991392e-32,299,3.4487306261235503e-31,True
+Rajanpur,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,2,0.5755222309059485,1.1074765049799362e-27,298,1.771962407967898e-26,True
+Rajanpur,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,3,0.5443011651065343,2.6325550735514352e-24,297,3.3094978067503756e-23,True
+Rajanpur,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,0,0.4366452960588451,2.1378944817801416e-15,300,1.2974807889424308e-14,True
+Rajanpur,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,1,0.3404498215528271,1.505579497103696e-09,299,5.195725323338245e-09,True
+Rajanpur,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,2,0.29204913039170405,2.856261640222736e-07,298,7.854719510612524e-07,True
+Rajanpur,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,3,0.25663537240718454,7.486422993478414e-06,297,1.733697956384475e-05,True
+Vehari,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,0,0.4083293471698389,1.7512727868258928e-13,300,9.340121529738094e-13,True
+Vehari,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,1,0.33478977945132293,2.902693890616134e-09,299,9.639134429215842e-09,True
+Vehari,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,2,0.1657385195150149,0.004118581614078777,298,0.006472056822123793,True
+Vehari,Precipitation drought -> Soil-water anomaly,SPI1,sm_0_100cm_z,3,0.07819961196140043,0.1789342514611569,297,0.21718916039423183,False
+Vehari,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,0,-0.21672507472305247,0.00015483843683974276,300,0.00030279516537549695,True
+Vehari,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,1,-0.0918578707548652,0.1129502555095751,299,0.14301615086104474,False
+Vehari,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,2,-0.07006633414570386,0.2278438248405267,298,0.27094941332386957,False
+Vehari,Soil-water anomaly -> Thermal anomaly,sm_0_100cm_z,lst_terra_c_z,3,-0.016491781592452737,0.7771500398122396,297,0.7952232965520591,False
+Vehari,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,0,0.254909943443816,7.792305780654613e-06,300,1.7810984641496258e-05,True
+Vehari,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,1,0.08876568427195798,0.1256464635742713,299,0.15795555420765536,False
+Vehari,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,2,-0.0019718633666693194,0.9729595947284451,298,0.9841430383460134,False
+Vehari,Soil-water anomaly -> NDVI anomaly,sm_0_100cm_z,ndvi_z,3,0.01609968724062684,0.7823139081710353,297,0.7958800453069492,False
+Vehari,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,0,0.44205424504716717,8.783845211760493e-16,300,5.521274133106596e-15,True
+Vehari,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,1,0.16810801104352316,0.0035516514123713557,299,0.005682642259794169,True
+Vehari,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,2,0.017783500421376112,0.7598141975456769,298,0.7820309869475973,False
+Vehari,Soil-water anomaly -> ET anomaly,sm_0_100cm_z,et_mm_z,3,-0.04577884779227062,0.43185362305217456,297,0.47208843265330885,False

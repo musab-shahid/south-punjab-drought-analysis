@@ -1,0 +1,11 @@
+district,indicator,threshold,onset,end,duration_months,cumulative_severity,peak_intensity
+Bahawalpur,SM_z,-1.0,2002-01-01,2003-06-01,18,9.358,-1.854
+Dera Ghazi Khan,SM_z,-1.0,2001-11-01,2003-06-01,20,9.091,-1.903
+Dera Ghazi Khan,SM_z,-1.0,2003-10-01,2004-12-01,15,6.806,-1.92
+Rajanpur,SM_z,-1.0,2001-11-01,2003-06-01,20,6.6,-1.664
+Bahawalpur,SM_z,-1.0,2007-04-01,2008-07-01,16,5.473,-1.806
+Rajanpur,SM_z,-1.0,2003-10-01,2004-12-01,15,5.199,-1.735
+Bahawalnagar,SM_z,-1.0,2002-01-01,2003-01-01,13,3.473,-1.539
+Rahim Yar Khan,SM_z,-1.0,2005-11-01,2006-07-01,9,3.301,-1.686
+Dera Ghazi Khan,SPI1,-1.0,2020-09-01,2021-02-01,6,3.229,-3.464
+Layyah,SM_z,-1.0,2003-11-01,2004-12-01,14,3.185,-1.654

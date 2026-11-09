@@ -1,7 +1,7 @@
-# Data provenance
+# Research data and results
 
-The complete original export archive is stored in the [project Google Drive folder](https://drive.google.com/drive/folders/1EFKdIpvvfyv1FfrVnsm2TWeDFcsamxs-?usp=sharing).
+`outputs/` contains current numerical result tables. The large monthly panel and regression text summaries are included in `Drought_Corrected_Outputs.zip` in the [current Drive release](https://drive.google.com/drive/folders/1Nnk_-ldtT32jwGUrnzeHbKRUny1FVxGn). Input tables are packaged separately as `Drought_Reproduction_Inputs.zip`.
 
-Data products used include CHIRPS v3 precipitation, ERA5-Land soil water, MODIS Terra/Aqua LST, MODIS NDVI, MODIS ET, ESA WorldCover cropland, OSM canals, and wheat-yield series. See the full report for temporal coverage, preprocessing, data caveats and provenance.
+For units, temporal coverage, wheat source tags, original file IDs and hashes, read [provenance](../docs/PROVENANCE.md). The environmental panel has 3,300 district-months. The current wheat panel has 264 eligible district-years; historical Drive outputs have 275.
 
-No original raw or derived datasets are bundled in this starter package. Before publishing any third-party data, review attribution, redistribution permissions and file sizes.
+These are aggregate district-level research data. Original providers' terms and attribution requirements continue to apply; this repository does not confer a new license on third-party inputs.

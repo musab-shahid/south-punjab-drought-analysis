@@ -1,0 +1,242 @@
+[
+  {
+    "file": "gee_exports/MOD16A2GF_ET_monthly_district.csv",
+    "bytes": 399012,
+    "sha256": "d6715261bc3a01e82164242b4eed738b83da95c223963ca9b019580c9e9887ed",
+    "drive_id": "1hGJBO--jlXYtY3pMzw869JHmoJgaJdk8"
+  },
+  {
+    "file": "gee_exports/MOD13Q1_NDVI_monthly_district.csv",
+    "bytes": 401836,
+    "sha256": "eabc0c32713a1d6165740015319f7ca9689990a7a31c89806fa46842e1d2a71c",
+    "drive_id": "14Xf9JOXd3GzSqJWolp2SIYqMS8H4ScOg"
+  },
+  {
+    "file": "gee_exports/MYD11A2_Aqua_LST_monthly_district.csv",
+    "bytes": 374468,
+    "sha256": "7f512b8e0d9137ee94c0fd2905699d9cdc845dc16d1d0bd08002d5a276e279f8",
+    "drive_id": "1HGhKjh5VyILLswUb939xKwA5ldH8VmrE"
+  },
+  {
+    "file": "gee_exports/MOD11A2_Terra_LST_monthly_district.csv",
+    "bytes": 398419,
+    "sha256": "ffec5ce414d794ec8f7b6c553ba64a0248dc8847ec16950d11f27fc2e8ead7f8",
+    "drive_id": "1DWcMFfCJg-dbAzx1PR69Sho45VdDt-QE"
+  },
+  {
+    "file": "gee_exports/ERA5Land_SM_monthly_district.csv",
+    "bytes": 402848,
+    "sha256": "c16dace510983b8ae2e9cc08203ff53a5811a42d0d83396792bcfb0ed880c5bc",
+    "drive_id": "1SYox5tOS1Jsa-ti3qKkIA3uIzdhi9CKO"
+  },
+  {
+    "file": "gee_exports/CHIRPS_v3_monthly_district.csv",
+    "bytes": 397670,
+    "sha256": "4c39f3dca9b8ce1b6c07429318243112f645650959948747a7082508bc8a1d9b",
+    "drive_id": "1IDF2UGfMoxrCxHb4HuLUVdyBbWKTYdBt"
+  },
+  {
+    "file": "gee_exports/district_canal_exposure_fraction_10km.csv",
+    "bytes": 1699,
+    "sha256": "35672e41e305baddf7532517f6c6b1341fb35f7597fbbeba69e98fceb570405a",
+    "drive_id": "1pf1FLNysaFqmAhS7Y-rqm9x8Tx0ZwL7N"
+  },
+  {
+    "file": "gee_exports/district_canal_exposure_fraction_2km.csv",
+    "bytes": 1714,
+    "sha256": "1d53c1888b89a92feec35aab6840cb71e82a7f8f363e8d15148918db9122512f",
+    "drive_id": "1nhKa3Xw-oZB20PrhnYGnEZ0RqoQG7IO0"
+  },
+  {
+    "file": "gee_exports/district_canal_exposure_fraction.csv",
+    "bytes": 1703,
+    "sha256": "c8abc67e6086642ac3f1029f57f2eeb9b08df545e9fad7be56db2f23ea37fa11",
+    "drive_id": "1qA8VUwpJy4Llx2uuI1oScj_Wz_SgKWhO"
+  },
+  {
+    "file": "source_data/south_punjab_wheat_2000_2024.csv",
+    "bytes": 8141,
+    "sha256": "f2ef24e6a65949a17e85985eb98bb66c208abad5032e4954f4cff1d0b2300d7a",
+    "drive_id": "1KpyQBIuzyTwiLUvtlNcyJRbbr-MJ89w8"
+  },
+  {
+    "file": "source_data/south_punjab_wheat_official_2000_2024.csv",
+    "bytes": 8141,
+    "sha256": "f2ef24e6a65949a17e85985eb98bb66c208abad5032e4954f4cff1d0b2300d7a",
+    "drive_id": "1mFd3WyWf5KWIS_omCUG8c-BfWjzO0ToS"
+  },
+  {
+    "file": "source_data/south_punjab_wheat_official_2000_2024_with_source.csv",
+    "bytes": 15366,
+    "sha256": "fd2d19caad3995c97f29e31eb62fc1f67ab685b5f0c01decde42843189dd220d",
+    "drive_id": "1q7Gp3z-bc9LOBRAzw7FLa7iTh9Czmg1g"
+  },
+  {
+    "file": "reference_outputs/yield_regression_buffer_sensitivity.csv",
+    "bytes": 1656,
+    "sha256": "5e20931ad4ff6f2616f1cc2a6cd3823603921d5dae98707ad0a9084860f477f5",
+    "drive_id": "1L5E9zTsRBvbU9hu99ddoEt470XsHm2OH"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_buf10km_C_SPI3.txt",
+    "bytes": 5885,
+    "sha256": "d146620949b3745ef44dfeccd866af649e0d22b5faa5880d1c5df0da33e49015",
+    "drive_id": "1sg2HYkw57jlUhcrlavY70e18hpdt5XPe"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_buf10km_B_SPI1.txt",
+    "bytes": 5885,
+    "sha256": "d79bf83816bacd88a524f2575feb77c20765de1800bae2ca3129482ffd337de8",
+    "drive_id": "1PFobHepnwF-Z6gU57jfKOoBIYc0s3-eQ"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_buf10km_A_SM_z.txt",
+    "bytes": 5890,
+    "sha256": "d9f642a4e461f91dcc40a18e0b9804112c22e929a8e3692572a6d404468d90cf",
+    "drive_id": "1VbbC3WzQupCdKrmantgukLinzvqEdblr"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_buf2km_C_SPI3.txt",
+    "bytes": 5884,
+    "sha256": "b161a885cbe43b2e109cccfede8dacc819a8f0c5d138b893d34c4423830ff152",
+    "drive_id": "1sXAsNJfCM9Zn4TmwftBBmCkpXQgkL5Oc"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_buf2km_B_SPI1.txt",
+    "bytes": 5884,
+    "sha256": "2cfc35ff4f2b56b5817b55eedec71496ad8d13c0dc4d6846d8814fbbba15288d",
+    "drive_id": "1FILUDogmw79SseCbw7HFO9KFArtCvgSk"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_buf2km_A_SM_z.txt",
+    "bytes": 5889,
+    "sha256": "00e6b0bf9d1b7d1891cc6c27cc7c50c1d686ccde8b324aed5ac622f41861e698",
+    "drive_id": "1Awli9VcPHq0eZKE9sB0A2GfQO8PGP9d-"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_buf5km_C_SPI3.txt",
+    "bytes": 5884,
+    "sha256": "b66713552a8cafe017ccd8c03e668ea52a237f6a7137288d9b11bbe04be33c11",
+    "drive_id": "1if6EcsQ5zXN6g6N5obeGO2jTNSPRprqb"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_buf5km_B_SPI1.txt",
+    "bytes": 5884,
+    "sha256": "2883d62e961a92aa0848734936945d4260c4d7fe063f8d434f5f8b480bd9f24b",
+    "drive_id": "1qyq-TkDqAQoo4qtLgmJIgMLJ0AtOdq9z"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_summary.txt",
+    "bytes": 5882,
+    "sha256": "9619ff851c2c06e9a57526b1d64c08d6143e282edf01e507a76431d13edd43fd",
+    "drive_id": "1XLTdKPhV6OSbWr4g6jY2ZJMzjF6eJK-V"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_buf5km_A_SM_z.txt",
+    "bytes": 5889,
+    "sha256": "9a61ee3e242f1eef1ef390076bce91abdc77fb6af17cffc17b9466484f54aed0",
+    "drive_id": "1_9UVVfk8M0g-LqcPY9eCNMVuuC9Dp-M1"
+  },
+  {
+    "file": "reference_outputs/yield_regression_robustness_summary.csv",
+    "bytes": 585,
+    "sha256": "493f8f48d4e017c5eabc0f0a12efade30a3a9e7c42aaff013a0cb1f857096cc3",
+    "drive_id": "1s8EwYpSiHKSj0NtTpWcpEFVok7dNRB2M"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_B_SPI1.txt",
+    "bytes": 5877,
+    "sha256": "0dde921072007efc57e262d557c529cc35abe3d86ea0f58707f6e600652ebba8",
+    "drive_id": "1VdMmRF3xhTlAznL2RstWgAYgKU-JF8Fc"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_C_SPI3.txt",
+    "bytes": 5877,
+    "sha256": "4d9fd4b6cd8026384dccab32b75bb0459c645cd9e7bb85c42c0df0a8fec4ea40",
+    "drive_id": "1l4ToKDim2PRSI2g0F8dxmfu5ZB7dK3_g"
+  },
+  {
+    "file": "reference_outputs/yield_panel_regression_A_SM_z.txt",
+    "bytes": 5882,
+    "sha256": "9619ff851c2c06e9a57526b1d64c08d6143e282edf01e507a76431d13edd43fd",
+    "drive_id": "1KWSnzjYPuth-UC-DYbKXVceE4WO6CD2i"
+  },
+  {
+    "file": "reference_outputs/wheat_drought_validation_panel.csv",
+    "bytes": 37128,
+    "sha256": "4950f50001efd57c85c5d6b4b1c0da417edd7b8d57b1908439e602d58b05c55b",
+    "drive_id": "1s6mvBbqqpLiF4YA1OcpdOY2YxyDoVaWW"
+  },
+  {
+    "file": "reference_outputs/south_punjab_drought_analysis_panel.csv",
+    "bytes": 1176393,
+    "sha256": "08d20f93d7e22cf08b479ad22de267c53d47540b8fcb506965804443614490d5",
+    "drive_id": "1YuIf5sMEOIF_8ZYbj2-WBEbkZKDhw1IW"
+  },
+  {
+    "file": "reference_outputs/major_drought_events_top10.csv",
+    "bytes": 688,
+    "sha256": "c5a01d5fcab6c79d855e12e63f29edb8edb9a77950f416e0565e681c4171c15c",
+    "drive_id": "1jSTYEnEXZMxEXiShKmToEUXqmb5ECdC0"
+  },
+  {
+    "file": "reference_outputs/SPI1_events_threshold_m1p0.csv",
+    "bytes": 5363,
+    "sha256": "9ca04c8751d1fec2fe0c034e35aaa5584aa396ab71a3e5e422656235c1931e0d",
+    "drive_id": "1the0GtL8xItdoBQQkMyBquil-gSX0FO6"
+  },
+  {
+    "file": "reference_outputs/terra_aqua_consistency.csv",
+    "bytes": 192,
+    "sha256": "911db6d7582f1d798400944c27983adf51e334c5118d375c955170b2648873e5",
+    "drive_id": "1vFfHiv3BSW1t9FHfFOprwYq8JCHDMbg_"
+  },
+  {
+    "file": "source/Original_Report.docx",
+    "bytes": 909217,
+    "sha256": "7922b48a0de449659a3c7ec3168bb4d86af30933901a9fba6ff51562054868e4",
+    "drive_id": "1OdzCHDSjB3KY8uIO5WPtR0P9SAUqHI1S"
+  },
+  {
+    "file": "reference_outputs/SM_drought_events.csv",
+    "bytes": 13716,
+    "sha256": "1d3c0c99b09dc10fd96ec77c47f1fbdf723e761a0f143ecb44d9b8ab3b2d0b1b",
+    "drive_id": "1w5jRTKwjc6PaRLdX3Kcq4pDEIhVEuOjA"
+  },
+  {
+    "file": "reference_outputs/lag_correlations_anomaly_based.csv",
+    "bytes": 25285,
+    "sha256": "f7c5e11644d15de95e956d59882d5c44f427f434d53f13849143ff5e2cc4a3bd",
+    "drive_id": "1hLToD2Ru1oFD8tTUfrNQDBX61EPLaqFW"
+  },
+  {
+    "file": "reference_outputs/terra_aqua_annual_gap.csv",
+    "bytes": 609,
+    "sha256": "d534421075bc58d59bfb6d1da4228a6360f0289bd181bca79ad59b78262495cc",
+    "drive_id": "167G8QMitehbpHRjgLUsMqwBT4cNyLrtk"
+  },
+  {
+    "file": "reference_outputs/SM_events_threshold_m1p0.csv",
+    "bytes": 3252,
+    "sha256": "da74f01e8c1ed3c912a48d45174e12bb9ef0188159148a82943a3683591ca9a2",
+    "drive_id": "1Ln_JFCLQ_MWlT32E3h3w5Fi_9bOh7ddq"
+  },
+  {
+    "file": "reference_outputs/SPI1_drought_events.csv",
+    "bytes": 21508,
+    "sha256": "ba3533bccc8f514cc11ec8a24a1b6fa6eb9b6045426c85954ad854b1d3ecf082",
+    "drive_id": "1emgv_B42BKAzG4wtwYAekCqz_oc5640J"
+  },
+  {
+    "file": "source/drought_study.ipynb",
+    "bytes": 126240,
+    "sha256": "9651a146d21ef448319cf7b373ed371e9539ab3cd5990aa748a4f90cfec9df9a",
+    "drive_id": "1GYltnr_K_9uAPB7LiGv3cSw4OJZZOqRm"
+  },
+  {
+    "file": "source/Copy of drought-study.ipynb",
+    "bytes": 922068,
+    "sha256": "927e8eecbae253760ac97bc6ffba93938d5547dda27a0cfb3e87b32511fbec9d",
+    "drive_id": "1OWC43F_w4MedLc79F0ton8Gm6R-bm8g1"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "file": "lag_correlations_anomaly_based.csv",
+    "rerun_exists": true,
+    "reference_rows": 176,
+    "rerun_rows": 176,
+    "matches": true
+  },
+  {
+    "file": "major_drought_events_top10.csv",
+    "rerun_exists": true,
+    "reference_rows": 10,
+    "rerun_rows": 10,
+    "matches": true
+  },
+  {
+    "file": "SM_drought_events.csv",
+    "rerun_exists": true,
+    "reference_rows": 208,
+    "rerun_rows": 208,
+    "matches": true
+  },
+  {
+    "file": "SM_events_threshold_m1p0.csv",
+    "rerun_exists": true,
+    "reference_rows": 48,
+    "rerun_rows": 48,
+    "matches": true
+  },
+  {
+    "file": "south_punjab_drought_analysis_panel.csv",
+    "rerun_exists": true,
+    "reference_rows": 3300,
+    "rerun_rows": 3300,
+    "matches": true
+  },
+  {
+    "file": "SPI1_drought_events.csv",
+    "rerun_exists": true,
+    "reference_rows": 373,
+    "rerun_rows": 373,
+    "matches": true
+  },
+  {
+    "file": "SPI1_events_threshold_m1p0.csv",
+    "rerun_exists": true,
+    "reference_rows": 91,
+    "rerun_rows": 91,
+    "matches": true
+  },
+  {
+    "file": "terra_aqua_annual_gap.csv",
+    "rerun_exists": true,
+    "reference_rows": 24,
+    "rerun_rows": 24,
+    "matches": true
+  },
+  {
+    "file": "terra_aqua_consistency.csv",
+    "rerun_exists": true,
+    "reference_rows": 1,
+    "rerun_rows": 1,
+    "matches": true
+  },
+  {
+    "file": "wheat_drought_validation_panel.csv",
+    "rerun_exists": true,
+    "reference_rows": 275,
+    "rerun_rows": 275,
+    "matches": true
+  },
+  {
+    "file": "yield_regression_buffer_sensitivity.csv",
+    "rerun_exists": true,
+    "reference_rows": 9,
+    "rerun_rows": 9,
+    "matches": true
+  },
+  {
+    "file": "yield_regression_robustness_summary.csv",
+    "rerun_exists": true,
+    "reference_rows": 3,
+    "rerun_rows": 3,
+    "matches": true
+  }
+]
